@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find c:reposIndiciumStreamlitstreamlit -name *.py -type f)",
+      "Bash(python3 -c \":*)",
+      "Bash(python -c \"import ast; ast.parse\\(open\\(''streamlit/app.py''\\).read\\(\\)\\); print\\(''OK''\\)\")"
+    ]
+  }
+}
